@@ -9,6 +9,7 @@ import junit.framework.*;
 public class test {
 	   public static void main(String[] a) {
 	      // add the test's in the suite
+		    // add the test's in the suite1
 	      TestSuite suite = new TestSuite(testdemo.class);
 	      suite.addTestSuite(test1.class);
 	      TestResult result = new TestResult();
